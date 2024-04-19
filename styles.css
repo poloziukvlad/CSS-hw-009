@@ -111,3 +111,19 @@ a::before {
 a::after {
     content: "$";
 }
+
+a[title] {
+    color: yellow;
+}
+
+a[title = "my-title"] {
+    color: blueviolet;
+}
+
+a[title~="my-title"] {
+    color: lightcoral;
+}
+
+a[href^="https://"]::before {
+    content: "$";
+  }
