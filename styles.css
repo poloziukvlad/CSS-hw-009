@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* *:hover {
     border: 1px solid orangered;
     font-weight: bold;
@@ -100,7 +104,7 @@ div ~ p {
     padding: 15px;
 }
 
-a:visited {
+/* a:visited {
     color: chocolate;
 }
 
@@ -126,7 +130,7 @@ a[title~="my-title"] {
 
 a[href^="https://"]::before {
     content: "$";
-  }
+  } */
 
 /* General styles for forms */
 
@@ -184,4 +188,26 @@ button {
     padding: 10px;
   }
 
+/* Styles for nav with :active */
+
+  .nav-menu {
+    background-color: darkolivegreen;
+    margin-top: 15px;
+    padding: 15px;
+  }
+
+  .navbar {
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+  .nav-item a {
+    color: white;
+  }
+
+  .nav-item a:active {
+    color: darkmagenta;
+    background-color: #007bff;
+  }
 
