@@ -5,10 +5,10 @@
     padding: 0;
 }
 
-*:hover {
+/* *:hover {
     border: 1px solid orangered;
     font-weight: bold;
-  }
+  } */
 
 /* Styles header / selector CLASS */
 
@@ -127,3 +127,61 @@ a[title~="my-title"] {
 a[href^="https://"]::before {
     content: "$";
   }
+
+/* General styles for forms */
+
+input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border-radius: 10px;
+    border:none;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: chocolate;
+    cursor: pointer;
+  }
+
+  input:hover {
+    border-color: yellow;
+    cursor: pointer;
+  }
+
+  input:focus {
+    color: red;
+  }
+
+
+/* Styles for forms*/
+
+  .forms {
+    background-color: darkgray ;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .form-name {
+    padding: 10px;
+  }
+
+  .form-surname {
+    padding: 10px;
+  }
+
+  .form-mail {
+    padding: 10px;
+  }
+
+  .form-phonenumber {
+    padding: 10px;
+  }
+
+
